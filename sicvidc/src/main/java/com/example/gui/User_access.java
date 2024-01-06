@@ -67,7 +67,7 @@
                         Suth_PU_elementinterface.add(ST_opcion1,gbc_PU_EI);
 
                         LabelText ST_opcion2 = new LabelText();
-                        ST_opcion2.setText("CEDULA");
+                        ST_opcion2.setText("C.I");
                         ST_opcion2.setBackground(new Color(0,0,0,170));
                         ST_opcion2.setPreferredSize(new Dimension(250,60));
                         ST_opcion2.setOpaque(true);
