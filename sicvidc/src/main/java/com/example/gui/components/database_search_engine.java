@@ -8,7 +8,9 @@ import javax.swing.JButton;
 import javax.swing.JDialog;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
+import javax.swing.SwingUtilities;
 
+import com.example.gui.Saime_Database;
 import com.example.gui.User_access;
 
 public class database_search_engine extends JDialog {
@@ -50,6 +52,9 @@ public class database_search_engine extends JDialog {
                         
                     }
                     else if (userAccess.Search_Opcion == 2) {
+                       Saime_Database Run_DBS = new Saime_Database();
+                       dispose();
+                       Run_DBS.setVisible(true);
                        
                         
                     }

@@ -18,7 +18,7 @@
         GridBagConstraints gbc = new GridBagConstraints();
         Font font = new Font("Arial",Font.BOLD,20);
         public int Search_Opcion;
-        User_access(){
+       public User_access(){
             setSize(1224,1024);
             setExtendedState(JFrame.MAXIMIZED_BOTH);
             setMinimumSize(new Dimension(1024,700));
