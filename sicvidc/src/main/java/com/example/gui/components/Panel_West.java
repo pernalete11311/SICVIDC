@@ -14,7 +14,7 @@ public class Panel_West extends VisualElementsInterface {
         setPreferredSize(new Dimension(400,getHeight()));
         
        
-        ImageIcon img = new ImageIcon("C:\\Users\\HP\\Desktop\\en caso de emergencia\\Nueva carpeta\\sicvidc\\sicvidc\\src\\main\\java\\com\\example\\assets\\PUI\\Police_SICVIDC.png");
+        ImageIcon img = new ImageIcon("sicvidc\\src\\main\\java\\com\\example\\assets\\PUI\\Police_SICVIDC.png");
         JLabel IconSICVIDC = new JLabel();
         IconSICVIDC.setSize(300, 300);
         IconSICVIDC.setIcon(new ImageIcon(img.getImage().getScaledInstance(300, 300, Image.SCALE_SMOOTH)));

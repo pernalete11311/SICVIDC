@@ -5,7 +5,7 @@ import java.awt.Dimension;
 import javax.swing.JFrame;
 public class Main extends JFrame{
     private Main(){
-         Panel_Principal panel = new Panel_Principal("C:\\Users\\HP\\Desktop\\en caso de emergencia\\Nueva carpeta\\sicvidc\\sicvidc\\src\\main\\java\\com\\example\\assets\\PUI\\Fondo1.jpg");
+         Panel_Principal panel = new Panel_Principal("sicvidc\\src\\main\\java\\com\\example\\assets\\PUI\\Fondo1.jpg");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         
         setSize(1224,1024);

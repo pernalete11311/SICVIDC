@@ -42,7 +42,7 @@
                 rightelementblock.add(north_PU_elementinterface,BorderLayout.NORTH);
                 
                     JLabel Perfil_user_ofical_img = new JLabel();
-                    ImageIcon Img_oficial = new ImageIcon("C:\\Users\\HP\\Documents\\java\\Projecto Sidvic\\sicvidc\\src\\main\\java\\com\\example\\assets\\perfil_police.jpg");
+                    ImageIcon Img_oficial = new ImageIcon("sicvidc\\src\\main\\java\\com\\example\\assets\\perfil_police.jpg");
                     Perfil_user_ofical_img.setIcon(new ImageIcon(Img_oficial.getImage().getScaledInstance(160, 200, ABORT)));
                     Perfil_user_ofical_img.setPreferredSize(new Dimension(180,170));
                     gbc_nortg_pu.gridx = 0;
@@ -94,8 +94,8 @@
                         Suth_PU_elementinterface.add(ST_opcion4,gbc_PU_EI);
 
 
-                        ImageIcon imagenNormal = new ImageIcon("C:\\Users\\HP\\Documents\\java\\Projecto Sidvic\\sicvidc\\src\\main\\java\\com\\example\\assets\\Icon\\UI_CAPE.png");
-                        ImageIcon imagenHover = new ImageIcon("C:\\Users\\HP\\Documents\\java\\Projecto Sidvic\\sicvidc\\src\\main\\java\\com\\example\\assets\\Icon\\UI_CAPE_open2.png");
+                        ImageIcon imagenNormal = new ImageIcon("sicvidc\\src\\main\\java\\com\\example\\assets\\Icon\\UI_CAPE.png");
+                        ImageIcon imagenHover = new ImageIcon("sicvidc\\src\\main\\java\\com\\example\\assets\\Icon\\UI_CAPE_open2.png");
 
                         ButtomIcon ST_opcion1_icon = new ButtomIcon();
                         gbc_PU_EI.gridx = 1;
@@ -285,7 +285,7 @@
 
             
                 VisualElementsInterfaceImage sicvidc = new VisualElementsInterfaceImage();
-                sicvidc.imagebackground = new ImageIcon("C:\\Users\\HP\\Documents\\java\\Projecto Sidvic\\sicvidc\\src\\main\\java\\com\\example\\assets\\PUI\\sicvidc.png").getImage();
+                sicvidc.imagebackground = new ImageIcon("sicvidc\\src\\main\\java\\com\\example\\assets\\PUI\\sicvidc.png").getImage();
                 sicvidc.setOpaque(false);
                 sicvidc.setPreferredSize(new Dimension(300, 300));
                 GridBagConstraints gbc = new GridBagConstraints();
