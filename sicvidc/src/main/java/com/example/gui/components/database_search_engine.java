@@ -10,7 +10,8 @@ import javax.swing.JLabel;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 
-import com.example.gui.Saime_Database;
+import com.example.gui.CarnetConducir;
+import com.example.gui.Cedula;
 import com.example.gui.User_access;
 
 public class database_search_engine extends JDialog {
@@ -52,14 +53,24 @@ public class database_search_engine extends JDialog {
                         
                     }
                     else if (userAccess.Search_Opcion == 2) {
-                       Saime_Database Run_DBS = new Saime_Database();
+                       Cedula Run_ID = new Cedula();
+                       Run_ID.setVisible(true);
+                       Run_ID.toFront();
+                        Run_ID.setAlwaysOnTop(true);
                        dispose();
-                       Run_DBS.setVisible(true);
+                       
+                       
                        
                         
                     }
                     else if(userAccess.Search_Opcion == 3){
-
+                        CarnetConducir Run_Carnet_conducir = new CarnetConducir();
+                       Run_Carnet_conducir.setVisible(true);
+                       Run_Carnet_conducir.toFront();
+                       Run_Carnet_conducir.setAlwaysOnTop(true);
+                       dispose();
+                       
+                       
                     }
                     else if(userAccess.Search_Opcion == 4){
 

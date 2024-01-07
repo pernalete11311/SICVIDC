@@ -111,7 +111,7 @@
                                     date_oficial.setTitle("Datos oficial");
                                     date_oficial.setModal(true);
                                     date_oficial.setVisible(true);
-
+                                    
                                     
                                 
                                 }
@@ -197,6 +197,7 @@
                             public void mouseClicked(MouseEvent e) {
                                 Search_Opcion = 3;
                             database_search_engine search_CICPC = new database_search_engine(User_access.this);
+                            
                             search_CICPC.setTitle("carnet de conducir");
                             search_CICPC.setModal(true);
                             search_CICPC.setVisible(true);

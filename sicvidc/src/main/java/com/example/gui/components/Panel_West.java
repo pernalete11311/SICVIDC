@@ -75,12 +75,12 @@ public class Panel_West extends VisualElementsInterface {
                 String Usuario = userField.getText();
                 String Contraseña = passwordField.getText();
                 
-                if(usuarioCorrecto(Usuario) && contrasenaCorrecta(Contraseña)){
+                //if(usuarioCorrecto(Usuario) && contrasenaCorrecta(Contraseña)){
                 User_access acceso = new User_access();
                 acceso.setVisible(true);
                 SwingUtilities.getWindowAncestor(Panel_Center).dispose();
                 
-                }
+                //}
                 
             }
         });
